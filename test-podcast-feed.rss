@@ -3,18 +3,18 @@
   <channel>
     <atom:link rel="self" type="application/atom+xml" href="https://splendorous-taiyaki-c3126b.netlify.app/feed.rss" title="MP3 Audio"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <title>Testing HTML rendering of Podcast Show Notes</title>
+    <title>HTML rendering test v2: Podcast Show Notes</title>
     <generator>Transistor (https://transistor.fm)</generator>
     <itunes:new-feed-url>https://splendorous-taiyaki-c3126b.netlify.app/feed.rss</itunes:new-feed-url>
-    <description>Show notes render differently in different podcast listening apps. Here's a test.</description>
-    <copyright>© 2023 Justin Jackson</copyright>
+    <description>Text elements and formatting render differently in different podcast listening apps. This is a test feed.</description>
+    <copyright>© 2024 Justin Jackson</copyright>
     <podcast:locked owner="justin@transistor.fm">no</podcast:locked>
     <language>en</language>
-    <pubDate>Mon, 15 May 2023 16:15:13 -0700</pubDate>
-    <lastBuildDate>Mon, 15 May 2023 16:15:21 -0700</lastBuildDate>
+    <pubDate>Thu, 23 May 2024 16:15:13 -0700</pubDate>
+    <lastBuildDate>Thu, 23 May 2024 16:15:21 -0700</lastBuildDate>
     <image>
       <url>https://images-internal.transistor.fm/images/episode/1338701/full_1684255645-artwork.jpg</url>
-      <title>Testing HTML rendering of Podcast Show Notes</title>
+      <title>HTML rendering test v2: Podcast Show Notes</title>
     </image>
     <itunes:category text="Comedy">
       <itunes:category text="Improv"/>
@@ -23,8 +23,8 @@
     <itunes:type>episodic</itunes:type>
     <itunes:author>Justin Jackson</itunes:author>
     <itunes:image href="https://images-internal.transistor.fm/images/episode/1338701/full_1684255645-artwork.jpg"/>
-    <itunes:summary>Show notes render differently in different podcast listening apps. Here's a test.</itunes:summary>
-    <itunes:subtitle>Show notes render differently in different podcast listening apps. Here's a test..</itunes:subtitle>
+    <itunes:summary>Text elements and formatting render differently in different podcast listening apps. This is a test feed.</itunes:summary>
+    <itunes:subtitle>Text elements and formatting render differently in different podcast listening apps. This is a test feed.</itunes:subtitle>
     <itunes:keywords></itunes:keywords>
     <itunes:owner>
       <itunes:name>Justin Jackson</itunes:name>
@@ -33,9 +33,9 @@
     <itunes:complete>No</itunes:complete>
     <itunes:explicit>No</itunes:explicit>
     <item>
-      <title>Podcast Episode Show Notes HTML Rendering Test</title>
-      <itunes:episode>2</itunes:episode>
-      <podcast:episode>2</podcast:episode>
+      <title>Rendering HTML in description, summary, content:encoded</title>
+      <itunes:episode>1</itunes:episode>
+      <podcast:episode>1</podcast:episode>
       <itunes:title>Podcast Episode Show Notes HTML Rendering Test</itunes:title>
       <itunes:episodeType>full</itunes:episodeType>
       <guid isPermaLink="false">91707a65-6c91-473a-8813-67336d98c4bd</guid>
@@ -303,7 +303,7 @@
 <p>example image</p>
 </div>]]>
       </content:encoded>
-      <pubDate>Mon, 15 May 2023 16:14:52 -0700</pubDate>
+      <pubDate>Tue, 21 May 2024 16:14:52 -0700</pubDate>
       <author>Justin Jackson</author>
       <enclosure url="https://media.transistor.fm/cd72c622/1f26df1d.mp3" length="2370631" type="audio/mpeg"/>
       <itunes:author>Justin Jackson</itunes:author>
@@ -334,56 +334,6 @@ wait 10 minutes
 goto first step (or shut off burner when done)</li>
 <li>Do not bump wooden spoon or it will fall.</li>
 </ol><p>A horizontal line:</p><p>Here's a link to <a href="http://foo.bar/">a website</a> , to a <a href="https://oxal.org/projects/sakura/demo/local-doc.html">local doc</a> , and to a <a href="http://127.0.0.1:5500/index.html#an-h2-header">section heading in the current doc</a> . Here's a footnote <a href="http://127.0.0.1:5500/index.html#fn1">1</a> .</p>]]>
-      </itunes:summary>
-      <itunes:keywords></itunes:keywords>
-      <itunes:explicit>No</itunes:explicit>
-    </item>
-    <item>
-      <title>What does radio look like in the modern age?</title>
-      <itunes:episode>1</itunes:episode>
-      <podcast:episode>1</podcast:episode>
-      <itunes:title>What does radio look like in the modern age?</itunes:title>
-      <itunes:episodeType>full</itunes:episodeType>
-      <guid isPermaLink="false">2301b7f4-4b99-4a8b-b7ec-b54434aba47a</guid>
-      <link>https://share.transistor.fm/s/5cadd332</link>
-      <description>
-        <![CDATA[<p><strong>Why should you start a podcast? In our experience, it's the best way to:</strong></p><ul>
-<li>Earn a reputation in your industry</li>
-<li>Connect with an audience</li>
-<li>Grow your personal network</li>
-</ul><p><strong>Connect with us:</strong></p><ul>
-<li>Twitter: <a href="https://twitter.com/transistorfm">@transistorfm</a>
-</li>
-<li>Email us: mail@transistor.fm</li>
-</ul>]]>
-      </description>
-      <content:encoded>
-        <![CDATA[<p><strong>Why should you start a podcast? In our experience, it's the best way to:</strong></p><ul>
-<li>Earn a reputation in your industry</li>
-<li>Connect with an audience</li>
-<li>Grow your personal network</li>
-</ul><p><strong>Connect with us:</strong></p><ul>
-<li>Twitter: <a href="https://twitter.com/transistorfm">@transistorfm</a>
-</li>
-<li>Email us: mail@transistor.fm</li>
-</ul>]]>
-      </content:encoded>
-      <pubDate>Thu, 13 Apr 2023 12:41:17 -0700</pubDate>
-      <author>Justin Jackson</author>
-      <enclosure url="https://media.transistor.fm/5cadd332/3c1448a7.mp3" length="19727622" type="audio/mpeg"/>
-      <itunes:author>Justin Jackson</itunes:author>
-      <itunes:image href="https://images-internal.transistor.fm/images/episode/1338701/full_1684255645-artwork.jpg"/>
-      <itunes:duration>1230</itunes:duration>
-      <itunes:summary>
-        <![CDATA[<p><strong>Why should you start a podcast? In our experience, it's the best way to:</strong></p><ul>
-<li>Earn a reputation in your industry</li>
-<li>Connect with an audience</li>
-<li>Grow your personal network</li>
-</ul><p><strong>Connect with us:</strong></p><ul>
-<li>Twitter: <a href="https://twitter.com/transistorfm">@transistorfm</a>
-</li>
-<li>Email us: mail@transistor.fm</li>
-</ul>]]>
       </itunes:summary>
       <itunes:keywords></itunes:keywords>
       <itunes:explicit>No</itunes:explicit>
