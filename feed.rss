@@ -42,10 +42,11 @@
       <link>https://share.transistor.fm/s/cd72c622</link>
       <description>
         <![CDATA[<p>
-    This project was created to provide a simple way to test your HTML styles.
+    This project is a simple test of HTML styles and elements. <a href="https://splendorous-taiyaki-c3126b.netlify.app/feed.rss">Link to RSS feed url</a>.
 </p>
+
 <p>
-    Its main use case is for visualizing how HTML is rendered in different podcast listening apps (Apple Podcasts, Spotify, Google Podcasts, etc).
+    The main use case for this test is to visualize how HTML is rendered in different podcast listening apps (Apple Podcasts, Spotify, YouTube Music, etc).
 </p>
 
 <h1>Testing an H1</h1>
@@ -55,23 +56,37 @@
 </p>
 
 <p>
-    This is a paragraph. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."
+    This is a paragraph. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm/podcast-hosting/">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."
 </p>
 
+<p>
+    <strong>Here's a block quote</strong>:
+</p>
+
+<blockquote>
+    <p>
+        Man surprised me most about humanity. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to die, and then dies having never really lived. – James J Lachard
+    </p>
+</blockquote>
+
 <h2>Testing an H2</h2>
+
+<p>
+    <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>
+</p>
 
 <p>
     This is a paragraph with a single line break inside of it. This is before the line break.<br>This is after the line break.
 </p>
 
-<h3>Testing an H3</h3>
-
 <p>
     This is a paragraph with a two line breaks inside of it. This is before the line breaks.<br><br>This is after the line breaks.
 </p>
 
+<h3>Testing an H3</h3>
+
 <div>
-    This is a DIV. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."
+    This is a DIV. To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps.
 </div>
 
 <div>
@@ -82,14 +97,10 @@
     This is a DIV with a two line breaks inside of it. This is before the line breaks.<br><br>This is after the line breaks.
 </div>
 
-<p>
-    <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>
-</p>
-
 <h4>Testing an H4</h4>
 
 <p>
-    <strong>Itemized lists look like:</strong>
+    <strong>A simple itemized lists look like this:</strong>
 </p>
 
 <ul>
@@ -98,35 +109,19 @@
     <li>the other one</li>
 </ul>
 
-<p>
-    <strong>Here's a block quote</strong>:
-</p>
-
-<blockquote>
-<p>
-    Man surprised me most about humanity. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so
-    anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to
-    die, and then dies having never really lived. -James J Lachard
-</p>
-</blockquote>
-
 <p>A nested list:</p>
 
 <ol>
 <li>
-    <p>First, get these ingredients:</p>
+    First, get these ingredients:
     <ul>
         <li>carrots</li>
         <li>celery</li>
         <li>lentils</li>
     </ul>
 </li>
-<li>
-    <p>Boil some water.</p>
-</li>
-<li>
-    <p>Do not bump wooden spoon or it will fall.</p>
-</li>
+<li>Boil some water.</li>
+<li>Do not bump wooden spoon or it will fall.</li>
 </ol>
 
 <p>A horizontal line:</p>
@@ -134,7 +129,7 @@
 
 <p>Tables can look like this:</p>
 
-<table>
+<table border="1">
 <caption>Shoes, their sizes, and what they're made of</caption>
 <thead>
     <tr>
@@ -164,20 +159,22 @@
 
 <p>A horizontal rule follows.</p>
 <hr />
-<p>Images are responsive by default:</p>
+
+<p>Images don't generally show up in podcast show notes, but here is an image just in case:</p>
 
 <div>
-<img alt="example image" src="https://images-internal.transistor.fm/images/episode/1338701/full_1684255645-artwork.jpg" title="An exemplary image" />
+<img alt="example image" src="https://transistorfm.github.io/rss-html-render-test/podcast-cover.jpg" style="width:100%" title="An exemplary image" />
 <p>example image</p>
 </div>
 ]]>
       </description>
       <content:encoded>
         <![CDATA[<p>
-    This project was created to provide a simple way to test your HTML styles.
+    This project is a simple test of HTML styles and elements. <a href="https://splendorous-taiyaki-c3126b.netlify.app/feed.rss">Link to RSS feed url</a>.
 </p>
+
 <p>
-    Its main use case is for visualizing how HTML is rendered in different podcast listening apps (Apple Podcasts, Spotify, Google Podcasts, etc).
+    The main use case for this test is to visualize how HTML is rendered in different podcast listening apps (Apple Podcasts, Spotify, YouTube Music, etc).
 </p>
 
 <h1>Testing an H1</h1>
@@ -187,23 +184,37 @@
 </p>
 
 <p>
-    This is a paragraph. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."
+    This is a paragraph. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm/podcast-hosting/">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."
 </p>
 
+<p>
+    <strong>Here's a block quote</strong>:
+</p>
+
+<blockquote>
+    <p>
+        Man surprised me most about humanity. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to die, and then dies having never really lived. – James J Lachard
+    </p>
+</blockquote>
+
 <h2>Testing an H2</h2>
+
+<p>
+    <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>
+</p>
 
 <p>
     This is a paragraph with a single line break inside of it. This is before the line break.<br>This is after the line break.
 </p>
 
-<h3>Testing an H3</h3>
-
 <p>
     This is a paragraph with a two line breaks inside of it. This is before the line breaks.<br><br>This is after the line breaks.
 </p>
 
+<h3>Testing an H3</h3>
+
 <div>
-    This is a DIV. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."
+    This is a DIV. To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps.
 </div>
 
 <div>
@@ -214,14 +225,10 @@
     This is a DIV with a two line breaks inside of it. This is before the line breaks.<br><br>This is after the line breaks.
 </div>
 
-<p>
-    <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>
-</p>
-
 <h4>Testing an H4</h4>
 
 <p>
-    <strong>Itemized lists look like:</strong>
+    <strong>A simple itemized lists look like this:</strong>
 </p>
 
 <ul>
@@ -230,35 +237,19 @@
     <li>the other one</li>
 </ul>
 
-<p>
-    <strong>Here's a block quote</strong>:
-</p>
-
-<blockquote>
-<p>
-    Man surprised me most about humanity. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so
-    anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to
-    die, and then dies having never really lived. -James J Lachard
-</p>
-</blockquote>
-
 <p>A nested list:</p>
 
 <ol>
 <li>
-    <p>First, get these ingredients:</p>
+    First, get these ingredients:
     <ul>
         <li>carrots</li>
         <li>celery</li>
         <li>lentils</li>
     </ul>
 </li>
-<li>
-    <p>Boil some water.</p>
-</li>
-<li>
-    <p>Do not bump wooden spoon or it will fall.</p>
-</li>
+<li>Boil some water.</li>
+<li>Do not bump wooden spoon or it will fall.</li>
 </ol>
 
 <p>A horizontal line:</p>
@@ -266,7 +257,7 @@
 
 <p>Tables can look like this:</p>
 
-<table>
+<table border="1">
 <caption>Shoes, their sizes, and what they're made of</caption>
 <thead>
     <tr>
@@ -296,10 +287,11 @@
 
 <p>A horizontal rule follows.</p>
 <hr />
-<p>Images are responsive by default:</p>
+
+<p>Images don't generally show up in podcast show notes, but here is an image just in case:</p>
 
 <div>
-<img alt="example image" src="https://images-internal.transistor.fm/images/episode/1338701/full_1684255645-artwork.jpg" title="An exemplary image" />
+<img alt="example image" src="https://transistorfm.github.io/rss-html-render-test/podcast-cover.jpg" style="width:100%" title="An exemplary image" />
 <p>example image</p>
 </div>]]>
       </content:encoded>
@@ -309,32 +301,6 @@
       <itunes:author>Justin Jackson</itunes:author>
       <itunes:image href="https://images-internal.transistor.fm/images/episode/1338701/full_1684255645-artwork.jpg"/>
       <itunes:duration>145</itunes:duration>
-      <itunes:summary>
-        <![CDATA[<p>This project was created to provide a simple way to test your HTML styles.</p><p>Its main use case is for visualizing how HTML is rendered in different podcast listening apps (Apple Podcasts, Spotify, Google Podcasts, etc).</p><p><b>Testing an H1</b></p><p>This is an anchor tag/hyper link: <a href="https://transistor.fm/how-to-start-a-podcast/">How to start a podcast</a></p><p>This is a paragraph. "To record a podcast, you'll need a microphone, PC or tablet, and audio editing software. Plug your microphone into your computer (or tablet) and record your episode. Once you're done editing it, you'll export the MP3 and upload it to a podcast hosting provider (like <a href="https://transistor.fm/">Transistor.fm</a>). Your podcast host will help you distribute your podcast to Apple Podcasts, Spotify, and other listening apps."</p><p>Testing an H2</p><p>This is a paragraph with a single line break inside of it. This is before the line break.<br>This is after the line break.</p><p>Testing an H3</p><p>This is a paragraph with a two line breaks inside of it. This is before the line breaks.</p><p>This is after the line breaks.</p><p><em>Italic</em> , <strong>bold</strong> , and monospace</p><p>Testing an H4</p><p><strong>Itemized lists look like:</strong></p><ul>
-<li>this one</li>
-<li>that one</li>
-<li>the other one</li>
-</ul><p><strong>Here's a block quote</strong> :</p>Man surprised me most about humanity. Because he sacrifices his health in order to make money. Then he sacrifices money to recuperate his health. And then he is so anxious about the future that he does not enjoy the present; the result being that he does not live in the present or the future; he lives as if he is never going to die, and then dies having never really lived. -James J Lachard<p><strong>Some code blocks</strong></p>define foobar() {
-    print "Welcome to flavor country!";
-}<p>A nested list:</p><ol>
-<li>First, get these ingredients:<ul>
-<li>carrots</li>
-<li>celery</li>
-<li>lentils</li>
-</ul>
-</li>
-<li>Boil some water.</li>
-<li>Dump everything in the pot and follow this algorithm:</li>
-<li>find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)</li>
-<li>Do not bump wooden spoon or it will fall.</li>
-</ol><p>A horizontal line:</p><p>Here's a link to <a href="http://foo.bar/">a website</a> , to a <a href="https://oxal.org/projects/sakura/demo/local-doc.html">local doc</a> , and to a <a href="http://127.0.0.1:5500/index.html#an-h2-header">section heading in the current doc</a> . Here's a footnote <a href="http://127.0.0.1:5500/index.html#fn1">1</a> .</p>]]>
-      </itunes:summary>
       <itunes:keywords></itunes:keywords>
       <itunes:explicit>No</itunes:explicit>
     </item>
